@@ -1,0 +1,3 @@
+2020-10-27 14:30:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "NOME VARCHAR(20)": "'Sport Club Internacional' (24)"; SQL statement:
+insert into time (id, estadio, nome, sigla, uf) values (null, ?, ?, ?, ?) [22001-200]
